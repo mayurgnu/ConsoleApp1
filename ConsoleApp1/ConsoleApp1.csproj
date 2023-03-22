@@ -46,6 +46,7 @@
     <Compile Include="AbstractDemo\AfterAbstract.cs" />
     <Compile Include="AbstractDemo\BeforeAbstract.cs" />
     <Compile Include="AbstractDemo\Main_AbstractDemo.cs" />
+    <Compile Include="Polymorphism\PolymorphismDemo.cs" />
     <Compile Include="Practicals\L1_Victrix.cs" />
     <Compile Include="Practicals\ParellelForeach.cs" />
     <Compile Include="Program.cs" />

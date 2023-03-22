@@ -9,9 +9,9 @@ namespace ConsoleApp1.AbstractDemo
     //copy paste below in program.cs
     //Main_AbstractDemo MAD = new Main_AbstractDemo();
     //MAD.fnMain();
-    public class Main_AbstractDemo
+    public static class Main_AbstractDemo
     {
-        public void fnMain()
+        public static void fnMain()
         {
             fnBeforeAbstract();
             fnAfterAbstract();
@@ -20,11 +20,11 @@ namespace ConsoleApp1.AbstractDemo
             Console.ReadLine();
         }
 
-        public void fnGetVarDataTypValue(int aa)
+        public static void fnGetVarDataTypValue(int aa)
         {
             Console.WriteLine($"fnGetVarDataTypValue called...{aa}");
         }
-        public void fnBeforeAbstract()
+        public static void fnBeforeAbstract()
         {
             Before_FullTimeEmployee fte = new Before_FullTimeEmployee()
             {
@@ -48,7 +48,7 @@ namespace ConsoleApp1.AbstractDemo
 
         }
 
-        public void fnAfterAbstract()
+        public static void fnAfterAbstract()
         {
             After_FullTimeEmployee fte = new After_FullTimeEmployee()
             {

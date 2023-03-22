@@ -1,4 +1,5 @@
 ﻿using ConsoleApp1.AbstractDemo;
+using ConsoleApp1.Polymorphism;
 using ConsoleApp1.Practicals;
 using System;
 using System.Collections.Generic;
@@ -14,9 +15,10 @@ namespace ConsoleApp1
     {
         public static void Main(string[] args)
         {
-            //Main_AbstractDemo MAD = new Main_AbstractDemo();
-            //MAD.fnMain();
-            ParellelForeach.fnParellelForeach();
+            //Main_AbstractDemo.fnMain();
+            //ParellelForeach.fnParellelForeach();
+            PolymorphismDemo.fnMain();
         }
     }
+   
 }
