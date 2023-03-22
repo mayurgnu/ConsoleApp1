@@ -1,4 +1,5 @@
 ﻿using ConsoleApp1.AbstractDemo;
+using ConsoleApp1.ExecutionOrderDemo;
 using ConsoleApp1.Polymorphism;
 using ConsoleApp1.Practicals;
 using System;
@@ -17,8 +18,8 @@ namespace ConsoleApp1
         {
             //Main_AbstractDemo.fnMain();
             //ParellelForeach.fnParellelForeach();
-            PolymorphismDemo.fnMain();
+            //PolymorphismDemo.fnMain();
+            ExecutionOrder.fnMain();   
         }
     }
-   
 }
