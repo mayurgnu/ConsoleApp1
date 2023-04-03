@@ -46,6 +46,8 @@
     <Compile Include="AbstractDemo\AfterAbstract.cs" />
     <Compile Include="AbstractDemo\BeforeAbstract.cs" />
     <Compile Include="AbstractDemo\Main_AbstractDemo.cs" />
+    <Compile Include="Constructor\AbstractConstructor.cs" />
+    <Compile Include="Constructor\StaticConstructor.cs" />
     <Compile Include="Constructor\Constructor.cs" />
     <Compile Include="ExecutionOrderDemo\ExecutionOrder.cs" />
     <Compile Include="Polymorphism\PolymorphismDemo.cs" />

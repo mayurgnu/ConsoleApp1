@@ -1,8 +1,10 @@
-﻿using ConsoleApp1.AbstractDemo;
+﻿using ConsoleApp1.AbstractConstructor;
+using ConsoleApp1.AbstractDemo;
 using ConsoleApp1.Constructor;
 using ConsoleApp1.ExecutionOrderDemo;
 using ConsoleApp1.Polymorphism;
 using ConsoleApp1.Practicals;
+using ConsoleApp1.StaticConstructor;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -21,7 +23,9 @@ namespace ConsoleApp1
             //ParellelForeach.fnParellelForeach();
             //PolymorphismDemo.fnMain();
             //ExecutionOrder.fnMain();
-            Constructor_Main.fnMain();
+            //Constructor_Main.fnMain();
+            //StaticConstructor_Main.fnMain();
+            AbstractConstructor_Main.fnMain();
         }
     }
 }

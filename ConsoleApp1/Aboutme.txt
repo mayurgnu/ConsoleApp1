@@ -1,3 +1,6 @@
 ﻿Demo of Static constructor in nonstatic class.
 ==============================================
 When static Constructor gets executed?
+Static constructor gets called only once when that class gets referenced for the first time.
+Regular constructor(Non static) gets called every time when that class gets intantiated.
+Abstract class Regular constructor gets called every time when its derived class gets intantiated.
