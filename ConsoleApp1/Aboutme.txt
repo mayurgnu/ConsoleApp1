@@ -1,3 +1,3 @@
-﻿Demo of static constructor in nonstatic class.
+﻿Demo of Static constructor in nonstatic class.
 ==============================================
 When static Constructor gets executed?
